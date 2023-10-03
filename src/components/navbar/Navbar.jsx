@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <Nav>
       <Logo to="/home" onClick={() => setOpen(false)}>
-        <i>{"<Cakirfan/>"} </i>
+        <i>{"<MyCoding/>"} </i>
         {/* tag lere özel < işaretlerini string gibi kullanmak istersek üstteki syntax la yazarız */}
         <span>recipe</span>
       </Logo>

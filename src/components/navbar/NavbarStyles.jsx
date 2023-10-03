@@ -8,7 +8,6 @@ export const Nav = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  border-radius: 0 0 10px 10px;
   height: 75px;
   font-size: 2rem;
   background-color: green;
@@ -95,14 +94,14 @@ export const Menu = styled.div`
 
 
 export const Logo = styled(MenuLink)`
-  background-color: lightgreen!important;
-  padding: .93rem 0;
-  color: #000!important;
+  background-color: lightgreen !important;
+  padding: 0.93rem .5rem;
+  color: #000 !important;
   font-weight: 800;
+  transition: all 0.5s ease;
 
   span {
-    font-weight: 400;
-    color: #00adb5!important;
+    color: #00adb5 !important;
   }
 `;
 
