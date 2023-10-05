@@ -11,7 +11,7 @@ export const Nav = styled.div`
   height: 75px;
   font-size: 2rem;
   background-color: green;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 `;
 
 export const MenuLink = styled(Link)`
@@ -22,7 +22,7 @@ export const MenuLink = styled(Link)`
   text-align: center;
   text-decoration: none;
   color: #eee!important;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   font-size: 2rem;
   font-family: "Girassol", sans-serif;
   &:hover {
@@ -98,7 +98,7 @@ export const Logo = styled(MenuLink)`
   padding: 0.93rem .5rem;
   color: #000 !important;
   font-weight: 800;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 
   span {
     color: #00adb5 !important;
