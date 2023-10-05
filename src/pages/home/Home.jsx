@@ -5,17 +5,17 @@ import RecipeCard from "./RecipeCard";
 import { HomeImg, ImgDiv } from "./HomeStyles";
 import homeSvg from "../../assets/home.svg";
 
-const APP_ID = "bfbb3efc";
+const APP_ID = "7b1599a4";
 
-const APP_KEY = "43faeee790f26cd82b28050d3031619d";
+const APP_KEY = "5078677c9e74fcf8adbb37e32aa9e854";
 
 const Home = () => {
   const [query, setQuery] = useState("");
-  const [ögün, setOgun] = useState("Breakfast");
+  const [ogun, setOgun] = useState("Breakfast");
 
   const [yemekler, setYemekler] = useState([]);
   // query=yazdığımız sorgu kelimesi, mealType=breakfast vs
-  const url = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${ögün}`;
+  const url = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${ogun}`;
 
   const getData = async () => {
     const veri = await axios.get(url);
@@ -23,6 +23,7 @@ const Home = () => {
     console.log(veri);
   };
   console.log(yemekler);
+
   return (
     <div>
       <Header setQuery={setQuery} setOgun={setOgun} getData={getData} />
