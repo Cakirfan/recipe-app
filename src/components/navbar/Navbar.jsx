@@ -21,7 +21,7 @@ const Navbar = () => {
       <Menu osman={open} onClick={() => setOpen(false)}>
         <MenuLink to="/about">About</MenuLink>
 
-        <a href="https://github.com/Cakirfan">Github</a>
+        <a href="https://github.com/Cakirfan" target="_blank" rel="noreferrer">Github</a>
 
         <MenuLink to="/">Logout</MenuLink>
       </Menu>
