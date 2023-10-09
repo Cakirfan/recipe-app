@@ -55,7 +55,7 @@ export const ImgDiv = styled.div`
   width: 80%;
   display: flex;
   justify-content: center;
-  margin: 45px auto;
+  margin: 1rem auto;
   /* background-color: #00adb5; */
   background-color: red;
 `;
