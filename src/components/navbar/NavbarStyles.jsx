@@ -8,7 +8,11 @@ export const Nav = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 75px;
+  width: 100%;
   font-size: 2rem;
   background-color: green;
   transition: all 0.3s ease-in-out;

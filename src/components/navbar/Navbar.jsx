@@ -7,6 +7,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
+    <>
     <Nav>
       <Logo to="/home" onClick={() => setOpen(false)}>
         <i>{"<MyCoding/>"} </i>
@@ -26,6 +27,9 @@ const Navbar = () => {
         <MenuLink to="/">Logout</MenuLink>
       </Menu>
     </Nav>
+    <div style={{ height: "75px" }}></div>      
+    </>
+
   );
 };
 
