@@ -12,7 +12,7 @@ import dietsvg from "../../assets/diet.svg";
 const Details = () => {
   const location = useLocation();
   //navigate ten state ile gönderilen verinin burada yakalanması için kullanılan bir hook
-  console.log(location.state.i.recipe);
+//   console.log(location.state.i.recipe);
   const a = location.state.i;
   return (
     <DetailContainer>
@@ -66,7 +66,7 @@ const Details = () => {
           {a.recipe.ingredientLines.map((item, index) => (
             <div key={index}>
               <p>
-                {index + 1} * {item}
+                <span style={{ fontSize:"1rem" }}>✏️</span> {index + 1} - {item}
               </p>
             </div>
           ))}
