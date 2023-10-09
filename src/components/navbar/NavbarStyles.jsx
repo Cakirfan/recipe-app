@@ -48,6 +48,7 @@ export const Menu = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 2rem;
   position: relative;
   /* içinde bulunduğu div in  stillerine göre ayarla kendini, bunu yazmazsak food app in altında kalacak */
   /* 3 kelime  açılınca üstteki özelliklerde olsun*/
