@@ -52,17 +52,17 @@ export const Button = styled.button`
 
 export const ImgDiv = styled.div`
   /* anasayfadaki aşçı resminin en dış kutusu */
-
+  width: 80%;
   display: flex;
   justify-content: center;
-  margin: 50px;
+  margin: 45px auto;
   /* background-color: #00adb5; */
   background-color: red;
 `;
 
 export const HomeImg = styled.img`
   /* ana sayfadaki esas resim */
-  width: 80%;
+  width: 70%;
   max-width: 750px;
   background-color: pink;
 `;
