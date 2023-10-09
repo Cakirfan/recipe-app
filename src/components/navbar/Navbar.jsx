@@ -19,7 +19,7 @@ const Navbar = () => {
         <GiHamburgerMenu />
       </Hamburger>
 
-      <Menu osman={open} onClick={() => setOpen(false)}>
+      <Menu open={open} onClick={() => setOpen(false)}>
         <MenuLink to="/about">About</MenuLink>
 
         <a href="https://github.com/Cakirfan" target="_blank" rel="noreferrer">Github</a>
