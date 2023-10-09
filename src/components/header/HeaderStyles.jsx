@@ -14,7 +14,8 @@ export const HeaderContainer = styled.div`
 export const MainHeader = styled.h2`
   /* food app başlık */
   margin-top: 1rem;
-  font-size: 3rem;
+  padding: 0 3rem;
+  font-size: 2rem;
   background-color: yellow;
 `;
 
@@ -27,7 +28,7 @@ export const FormContainer = styled.form`
   justify-content: center;
   border: 2px solid white;
   border-radius: 3px;
-  margin: 20px;
+  margin: 10px;
   background-color:blue;
 `;
 
