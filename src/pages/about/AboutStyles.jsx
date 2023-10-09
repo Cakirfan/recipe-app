@@ -19,7 +19,7 @@ export const AboutContainer = styled.div`
 `;
 export const StyledImage = styled.img`
   width: 500px;
-  margin-bottom: 2rem;
+  margin-bottom: 1.7rem;
 `;
 
 export const HeaderContainer = styled.div`
@@ -29,10 +29,11 @@ export const HeaderContainer = styled.div`
 export const InfoContainer = styled.div`
   text-align: right;
   margin: 0 10px;
+  margin-bottom: 7rem;
   max-width: 1000px;
   border: 1px solid white;
-  padding: 25px;
   border-radius: 5px;
+
   a {
     color: orange;
   }

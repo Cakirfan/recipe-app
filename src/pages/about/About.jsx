@@ -20,13 +20,12 @@ const About = () => {
         </HeaderContainer>
         <InfoContainer>
           <h2>Hi, I'am Irfan Cakir</h2>
-          <h3>I’m currently learning Full-Stack Development Languages.</h3>
+          <h3>I’m currently learning Frontend Development Languages.</h3>
           <h4>
-            I've already known JS, ReactJS, Python
+            I've already known JS, ReactJS
           </h4>
           <h2>
-            <a href="mailto:cakirfan.001@gmail.com">Send email</a> :
-            cakirfan.001@gmail.com
+            <a href="mailto:cakirfan.001@gmail.com">Send email</a> : cakirfan.001@gmail.com
           </h2>
           {/* whatsapp://tel:321 12345678 */}
         </InfoContainer>
